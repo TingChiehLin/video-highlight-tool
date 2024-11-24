@@ -15,7 +15,7 @@ const TranscriptEditor: FC<TranscriptEditorProps> = ({ onTimestampClick }) => {
   if (error) return <p>Failed to load transcript.</p>;
 
   return (
-    <div className="py-10 px-14 bg-white rounded shadow-md border border-gray-200 col-span-3 md:col-span-1 ">
+    <div className="py-10 px-8 md:px-10 bg-white rounded shadow-md border border-gray-200 col-span-3 md:col-span-1 ">
       {data?.transcript.map((section, index) => (
         <div
           key={index}
