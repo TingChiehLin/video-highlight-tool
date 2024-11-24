@@ -23,10 +23,9 @@ The Video Highlight Tool is a web application built using React, Next.js, Tailwi
 ## Features
 
 - Video upload and processing
-- Transcript display with section titles and selectable sentences
+- Transcript display with timeline section and selectable sentences
 - Synchronized video playback and transcript highlighting
 - Highlight timeline for quick navigation
-- Transcript overlay on the video
 - Responsive design for desktop and mobile
 
 ## Technology Stack
@@ -34,7 +33,7 @@ The Video Highlight Tool is a web application built using React, Next.js, Tailwi
 - **Frontend**: React, Next.js, Tailwind CSS
 - **State Management**: Zustand
 - **async state management**: React Query
-- **API**: Next.js API routes
+- **API**: Mouk API 
 - **Hosting**: Vercel
 
 ## Installation
@@ -47,15 +46,15 @@ The Video Highlight Tool is a web application built using React, Next.js, Tailwi
 ## Usage
 
 1. Visit the application in your browser at `http://localhost:3000`
-2. Click the "Upload Video" button to add a video file
-3. Wait for the AI processing to complete (Mock)
+2. Click the "Upload your video" button to add a video file
+3. Wait for the AI processing to complete (Mock API)
 4. Select the sentences you want to include in the highlight reel
 5. Preview the highlight clip and adjust as needed
 
 ## Deployment
 
 The application is deployed on Vercel. 
-You can access the live demo at: [https://video-highlight-tool.vercel.app/](https://video-highlight-tool.vercel.app/)
+You can access the live demo at: [Here](https://video-highlight-tool.vercel.app/)
 
 ## License
 
