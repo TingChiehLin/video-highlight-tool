@@ -11,6 +11,7 @@ interface TranscriptEditorProps {
 const TranscriptEditor: FC<TranscriptEditorProps> = ({ onTimestampClick }) => {
   const { selectedSentences, toggleSentence } = useVideoStore();
   const { data, isLoading, error } = useMockAIData();
+
   if (isLoading) return <p>Loading transcript...</p>;
   if (error) return <p>Failed to load transcript.</p>;
 
